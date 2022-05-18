@@ -1,0 +1,84 @@
+.final1{
+    /* border: 1px solid black; */
+    margin-top: 100px;
+    max-width: 100%;
+  
+
+}
+.final2{
+   
+    display: flex;
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+}
+.final2 .finalImg{
+    margin-left: 150px;
+ 
+    /* border: 1px solid black; */
+    width: 50%;
+}
+.final2 .finalText{
+    margin: 100px auto;
+    width: 30%;
+}
+#cardimg{
+    position: absolute;
+    top: -80px;
+    left: 30px;
+}
+.contDown{
+    display: flex;
+    width: 55%;
+    justify-content: space-between;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+}
+
+
+
+/* media q  */
+@media (max-width: 640px) {
+    .final1{width: 100%;
+        text-align: center;
+       
+    }
+    .final2{
+        width: 100%;
+        flex-direction: column;
+    }
+    .finalImg {
+        width: 100%;
+    }
+    .finalText{
+        width: 100%;
+       
+    }
+    #cardimg{
+        width: 70%;
+    }
+    #cardimgbk{
+width: 100%;
+    }
+    .finalText h1{
+        width: 200px;
+        margin-right: 50px;
+        padding-bottom: 20px;
+        text-align: center;
+        font-size: 20px;
+    }
+    .finalText p{
+        width: 300px;
+        text-align: center;
+    }
+    .contDown{
+        width: 100%;
+    }
+    .contDown .item1 {
+        padding: 0px 10px;
+    }
+    .contDown .item1 h1{
+        font-size: 20px;
+    }
+}

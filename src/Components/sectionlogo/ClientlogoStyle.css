@@ -1,0 +1,54 @@
+
+.child1 p{
+    color: #7D8589;
+}
+.client2{
+    display: flex;
+  justify-content: space-between;
+   
+    /* border: 1px solid black; */
+    
+    margin: 30px auto;
+    /* height: 300px; */
+    width: 85%;
+
+}
+.clientmain{
+   max-width: 90%;
+    background-color: white;
+    padding: 1rem;
+    margin: 0 auto;
+}
+.allLogo{
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    width: 100%;
+    padding: 1rem;
+}
+.allLogo img{
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* media Query */
+
+@media (max-width: 640px) {
+
+.clientmain{
+    text-align: center;
+}
+.client2{flex-direction: column;}
+.child1{
+    padding: 20px;
+    width: 100%;
+}
+.child1 p{
+    padding: 10px;
+}
+.child2{
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+}
+
+}
